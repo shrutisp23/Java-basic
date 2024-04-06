@@ -4,7 +4,7 @@ public class ReverseAtSamePlace {
 	
 	public static void main(String[] args) {
 
-		String name = "Hwllo world java";
+		String name = "Hello world java";
 		String[] a = name.split(" ");
 
 		for (int i = 0; i < a.length; i++) {

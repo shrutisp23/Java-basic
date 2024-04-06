@@ -8,4 +8,4 @@ public class HarmonicSeries {
 			System.out.print(1 / i + ",");
 		}
 	}
-	}
+}

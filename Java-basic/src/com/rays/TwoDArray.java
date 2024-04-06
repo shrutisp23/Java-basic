@@ -7,20 +7,15 @@ public class TwoDArray {
 		int[][] arr = new int[9][10];
 		for(int i=0;i<row;i++) {
 			
-			for (int j=0;j<col;j++)  
-				 {
-					 arr[i][j] = (j+1)*(i+2);
-				}
-				
-			
-		}           
-            System.out.println(" array is "); 
-            for(int i=0; i<row;i++) {
+			for (int j=0;j<col;j++)
+				System.out.println(" array is "); 
+            for(int m=0; m<row;m++) {
             	for(int j=0; j<col;j++) {
-            		System.out.print(arr[i][j]+" ");
+            		System.out.print(arr[m][j]+" ");
             	}
             	System.out.println();
             }
 	}
  
+}
 }

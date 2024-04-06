@@ -10,6 +10,6 @@ public class SecondHigh {
    public static void main(String[] args) {
 	   int arr[] = {10,20,25,5,60,88,79,34,52};
 	   int n= arr.length;
-	   secondHighest(arr,n);
+	  
    }
 }
