@@ -30,7 +30,7 @@ public class Exercise {
      // Random Number
          	  public  void randomNumber() {
 
-         			Random r = new Random();
+                          Random r = new Random();
 
          			for (int i = 0; i < 5; i++) {
 
@@ -51,8 +51,8 @@ public class Exercise {
             	 System.out.println(fact);
          	  }
      // Reverse Digits
-         	  public int reverse() {
-         		 int num = 432;
+         	  public int reverse(int num) {
+         		 
          		int rev =0;
          		while(num!=0) {
          			int r= num%10;	
@@ -240,6 +240,8 @@ public class Exercise {
          			System.out.println(suma - sumb);
 
          	  }
+         
+         	  // 
          			
          			
          			

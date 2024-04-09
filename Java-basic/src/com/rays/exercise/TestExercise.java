@@ -9,7 +9,7 @@ public class TestExercise {
 		e.min(10,20);
 		e.randomNumber();
 		e.factorial(5);
-		e.reverse();
+		e.reverse(432);
 		
 		Exercise.fibonacciSeries();
 		int i = Exercise.divisibility();

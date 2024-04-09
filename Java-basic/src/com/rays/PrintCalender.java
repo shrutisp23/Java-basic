@@ -18,7 +18,7 @@ public class PrintCalender {
 
 	        for (int i = 0; i < 12; i++) {
 	            System.out.println(outputDateFormat.format(cal.getTime()));
-	            cal.add(Calendar.MONTH, 1); // Adding 1 month
+	            cal.add(Calendar.DATE, 1); // Adding 1 Day
 	        }
      }
  }
