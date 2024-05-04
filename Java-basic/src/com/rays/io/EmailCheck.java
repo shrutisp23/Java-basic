@@ -37,8 +37,8 @@ public class EmailCheck {
 	    	
 	    	 
 	     }
-	        out.close();
-	    	out1.close();
+	         out.close();
+	    	 out1.close();
 	}
 
 }
